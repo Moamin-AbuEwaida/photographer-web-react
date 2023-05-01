@@ -2,9 +2,9 @@ import React from "react";
 
 const About = () => {
   return (
-    <div>
+    <section className="section bg-yellow-200">
       <div>About</div>
-    </div>
+    </section>
   );
 };
 

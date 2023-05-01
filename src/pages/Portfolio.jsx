@@ -2,9 +2,9 @@ import React from "react";
 
 const Portfolio = () => {
   return (
-    <div>
+    <section className="section bg-red-200">
       <div>Portfolio</div>
-    </div>
+    </section>
   );
 };
 

@@ -1,10 +1,17 @@
+import Header from './components/Header';
+import AnimRoutes from './components/AnimRoutes';
 
+import {BrowserRouter as Router} from 'react-router-dom'
+import {motion} from 'framer-motion'
 
 function App() {
   return (
-    <div className="App">
-      <h1>hello</h1>
-    </div>
+    <>
+      <Router>
+        <Header />
+        <AnimRoutes />
+      </Router>
+    </>
   );
 }
 
